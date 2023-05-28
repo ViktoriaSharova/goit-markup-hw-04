@@ -57,7 +57,6 @@ img {
 /* *----------------------HEADER-INDEX------------------* */
 
 .main-header {
-    border-box;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     
@@ -233,6 +232,7 @@ img {
     background-color: #F4F4FD;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 4px;
     margin-bottom: 8px;
 }
@@ -359,6 +359,10 @@ img {
     background-color: #404bbf;
 }
 
+.team-soc-link:focus {
+    background-color: #404bbf;
+}
+
 .team-soc-icon {
     fill: #f4f4fd;
 }
@@ -416,14 +420,6 @@ img {
     gap: 24px;
 }
 
-.customers-box{
-
-    border-radius: 4px;
-    margin: 0 auto;
-    text-align: center;
-    gap: 24px;
-}
-
 .customers-list {
     box-sizing: border-box;
     min-width: 168px;
@@ -433,10 +429,12 @@ img {
 }
 
 .customers-link {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #8e8f99;;
+    color: #8e8f99;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
@@ -469,6 +467,11 @@ img {
     padding: 100px 0;
 }
 
+.footer-index {
+    display: flex;
+    align-items: baseline;
+}
+
 .logo-link-footer {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -492,8 +495,7 @@ img {
 }
 
 .section-logo-footer {
-    display: flex;
-    align-items: baseline;
+
     margin-right: 120px;
 }
 
@@ -508,6 +510,18 @@ img {
     margin-bottom: 16px
 }
 
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+}
+
 .social-link {
     width: 100%;
     height: 100%;
@@ -519,6 +533,10 @@ img {
     
 }
 
+.social-icon {
+    fill: #f4f4fd;
+}
+
 .social-link:hover {
     background-color: #31d0aa;
 }
@@ -527,21 +545,6 @@ img {
     background-color: #31d0aa;
 }
 
-.social-icon {
-    fill: #f4f4fd;
-}
-
-.footer-social {
-    display: flex;
-    gap: 16px;
-
-}
-
-.footer-social-link {
-    display: flex;
-    width: 40px;
-    height: 40px;
-}
 /* --------------PORTFOLIO HEADER--------------- */
 
 .portfolio-header {
