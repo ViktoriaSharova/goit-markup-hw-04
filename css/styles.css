@@ -455,9 +455,7 @@ img {
 
 /* --------------INDEX-SECTION-FOOTER-------------- */
 
-.logo-link-footer {
-    margin-bottom: 17.5px;
-}
+
 
 .section-footer {
     display: flex;
@@ -467,10 +465,14 @@ img {
     padding: 100px 0;
 }
 
-.footer-index {
+.footer-logo-index {
     display: flex;
     align-items: baseline;
 }
+ .logo-section {
+    margin-right: 120px;
+ }
+
 
 .logo-link-footer {
     font-family: 'Raleway', sans-serif;
@@ -486,20 +488,31 @@ img {
     margin-bottom: 16px;
 }
 
+.logo-link-footer {
+    margin-bottom: 17.5px;
+}
+
 .logo-color-footer {
     color: var(--secondary-light-color);
 }
 
 .footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
     max-width: 264px;
+
 }
 
-.section-logo-footer {
-
+.section-social {
     margin-right: 120px;
 }
 
-.social {
+.social-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -507,12 +520,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 .footer-social {
     display: flex;
-    justify-content: center;
     gap: 16px;
 
 }
@@ -530,7 +542,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .social-icon {
@@ -545,11 +556,18 @@ img {
     background-color: #31d0aa;
 }
 
+.footer-index {
+    display: flex;
+    align-items: baseline;
+}
+
 /* --------------PORTFOLIO HEADER--------------- */
 
 .portfolio-header {
     border-bottom: 1px solid #e7e9fc
 }
+
+
 
 /* --------------PORTFOLIO GALERY-SECTION--------------- */
 
@@ -687,7 +705,6 @@ img {
 }
 
 /* --------------PORTFOLIO FOOTER--------------- */
-
 .footer-portfolio {
     display: flex;
     align-items: baseline;
@@ -695,17 +712,17 @@ img {
 
 }
 
-.social-text-footer {
+.social-text {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 16x;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
 
 }
 
-.footer-social-portfolio {
+.footer-social {
     display: flex;
     gap: 16px;
 }
