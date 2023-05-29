@@ -627,6 +627,10 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+
+}
+
+.link-portfolio-gallery {
     display: block;
 }
 
@@ -655,7 +659,7 @@ img {
     gap: 24px;
 }
 
-.mod-btn-first {
+.mod-btn {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
