@@ -151,7 +151,8 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -526,7 +527,7 @@ img {
 .footer-social {
     display: flex;
     gap: 16px;
-
+    width: 100%;
 }
 
 .footer-social-link {
