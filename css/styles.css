@@ -589,6 +589,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    
 }
 
 .gallery-portfolio {
@@ -599,8 +600,7 @@ img {
 
 .link-portfolio {
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     
 }
 
