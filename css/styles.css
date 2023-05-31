@@ -50,8 +50,7 @@ img {
 
 .link {
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 /* *----------------------HEADER-INDEX------------------* */
@@ -188,7 +187,7 @@ img {
     margin: 0 auto;
     border: none;
     padding: 16px 32px 16px 32px;
-    
+      
 }
 
 .hero-title {
@@ -201,9 +200,7 @@ img {
     background-color: var(--title-color);
     margin: 0 auto;
     max-width: 496px;
-    margin-bottom: 48px;
-    
-    
+    margin-bottom: 48px;   
 }
 
 /*  -----------------SECONDARY-SECTION----------------- */
@@ -323,13 +320,10 @@ img {
 .list-team {
     display: flex;
     gap: 24px;
-
 }
 
 .team {
-    
     padding: 32px 16px;
- 
 }
 
 .icon-team{
@@ -350,11 +344,8 @@ img {
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-
-
 
 .team-soc-link:hover {
     background-color: #404bbf;
@@ -373,8 +364,7 @@ img {
     width: calc((100% - 72px) / 4);
     text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-    
+    border-radius: 0px 0px 4px 4px;  
 }
 
 .secondary-title-team {
