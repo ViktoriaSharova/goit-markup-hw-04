@@ -70,6 +70,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -584,7 +586,7 @@ img {
 
 
 .gallery-list {
-
+    display: block;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -592,6 +594,7 @@ img {
 
 .gallery-portfolio {
     width: calc((100% - 48px) / 3);
+    
 
 }
 
