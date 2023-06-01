@@ -199,7 +199,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--light-color);
-    background-color: var(--title-color);
+    
     margin: 0 auto;
     max-width: 496px;
     margin-bottom: 48px;   
@@ -557,7 +557,8 @@ img {
 /* --------------PORTFOLIO HEADER--------------- */
 
 .portfolio-header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -592,7 +593,7 @@ img {
 }
 
 .gallery-portfolio {
-    width: calc((100% - 48px) / 3);
+    
     display: block;
 }
 
@@ -622,8 +623,7 @@ img {
 
 
 .gallery-item {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    
+    width: calc((100% - 48px) / 3);
 }
 
 
